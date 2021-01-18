@@ -1,0 +1,19 @@
+$black: #000;
+$white: #ffffff;
+$darkblue: #1d3458;
+$lightgreen: #c9e9ca;
+$green1: #2a7724;
+$green2: #8bc34a;
+
+$two: 20px;
+
+$font1: "Montserrat", "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
+	sans-serif;
+$font2: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$font3: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+@mixin top-menu-view {
+	@media all and (max-width: 700px) {
+		@content;
+	}
+}

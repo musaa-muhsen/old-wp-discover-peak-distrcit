@@ -1,0 +1,126 @@
+@import "mixin.scss";
+@import "slider-map-peak.scss";
+@import "footer-nav-peak.scss";
+@import "archive-peak.scss";
+@import "front-page-peak.scss";
+@import "single-guides-peak.scss";
+@import "single-events-peak.scss";
+
+* {
+	//outline: lightblue solid 1px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+html {
+	font-family: $font1;
+	background: $white;
+	font-size: 16px;
+}
+body {
+	//background: #fcfffe;
+	color: $black;
+}
+
+a {
+	color: $black;
+	text-decoration: none;
+}
+
+body.home {
+	.fp-guide-container {
+		background: #e4dfcf;
+		color: #013220;
+		a {
+			color: #013220;
+		}
+	}
+
+	.events-link-container {
+		background: #f5eee6;
+		color: $darkblue;
+		a {
+			color: $darkblue;
+		}
+	}
+}
+body.post-type-archive-event {
+	.events-link-container-archive {
+		background: #dae3bb;
+		color: #013220;
+		a {
+			color: #013220;
+		}
+	}
+}
+
+body.post-type-archive-guide,
+body.page-id-21 {
+	.events-link-container-archive {
+		background: #e4dfcf;
+		color: #013220;
+		a {
+			color: #013220;
+		}
+	}
+}
+body.single-event {
+	.events-link-container {
+		background: $darkblue;
+		color: #f9f3ec;
+		a {
+			color: #f9f3ec;
+		}
+	}
+}
+body.single-guide {
+	.events-link-container {
+		background: #e4dfcf;
+		color: #013220;
+		a {
+			color: #013220;
+		}
+	}
+}
+
+body.single-map {
+	.events-link-container {
+		background: #e4dfcf;
+		color: #013220;
+		a {
+			color: #013220;
+		}
+	}
+}
+// .image-box {
+// 	max-width: 500px;
+// 	height: auto;
+// 	img {
+// 		max-width: 100%;
+// 		height: auto;
+// 		display: block;
+// 	}
+// }
+.peak-about-container-about-page {
+	//background: pink;
+
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 100px 0;
+	div {
+		width: 500px;
+		background: #f5eee6;
+		color: $darkblue;
+		padding: 40px;
+		@media only screen and (max-width: 510px) {
+			width: 98%;
+		}
+	}
+}
+
+// ========= hover effect
