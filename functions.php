@@ -9,7 +9,7 @@ function peak_files() {
 
     //wp_register_script('jq-file', get_template_directory_uri() . '/js/jquery-3-4-1.js', NULL, 1 , true);
      //wp_enqueue_script('jq-file');
-     wp_enqueue_script('googleMap','//maps.googleapis.com/maps/api/js?key=AIzaSyDPhz4-Lv0-qCoDFZ-SD32jVYADTxzJHVw' , NULL, '1.0', true); # to slashes are used instead of http or https(secure) so there will be no erros 
+     wp_enqueue_script('googleMap','//maps.googleapis.com/maps/api/js?key=' , NULL, '1.0', true); # to slashes are used instead of http or https(secure) so there will be no erros 
 
     //wp_enqueue_script( 'script', get_template_directory_uri() . '/js/script.js', array ( 'jquery' ), 1.1, true);
 
